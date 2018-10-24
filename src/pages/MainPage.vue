@@ -1,18 +1,27 @@
 <template>
     <div class="docker-root">
         <div class="docker-main">
-            <div>问题列表tab</div>
-            <div>问题列表desc</div>
+            <main-tabs/>
+            <question-item/>
         </div>
         <div class="docker-statistics">
-            <div>统计信息</div>
+            <sider-bar/>
         </div>
     </div>
 </template>
 
 <script>
+    import MainTabs from '../components/mainPage/MainTabs'
+    import QuestionItem from '../components/mainPage/QuestionItem'
+    import SiderBar from '../components/mainPage/SiderBar'
+
     export default {
-        name: "MainPage"
+        name: "MainPage",
+        components: {
+            MainTabs,
+            QuestionItem,
+            SiderBar
+        }
     }
 </script>
 
@@ -39,7 +48,6 @@
         .docker-statistics {
             width: @main-statistics-width;
             margin-left: 5px;
-            background: lightblue;
         }
     }
 </style>
