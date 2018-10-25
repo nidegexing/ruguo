@@ -25,6 +25,7 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #000000;
+        text-align: left;
     }
 
     html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -64,5 +65,30 @@
 
     .nav {
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .tagged-interesting {
+        background-color: #ffefc6;
+    }
+
+    .tagged-ignored {
+        background-color: #fff;
+        opacity: 0.3;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0pt;
+    }
+
+    input, select, button {
+        border: 1px solid #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+    }
+
+    input {
+        margin: 5px 0;
+        padding: 3px;
     }
 </style>

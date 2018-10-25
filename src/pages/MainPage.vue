@@ -43,7 +43,6 @@
 
         .docker-main {
             width: @main-main-width;
-            background: lightyellow;
         }
         .docker-statistics {
             width: @main-statistics-width;
