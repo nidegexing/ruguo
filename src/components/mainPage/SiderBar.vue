@@ -122,9 +122,6 @@
                     cursor: pointer;
                 }
             }
-            .vt {
-                vertical-align: top;
-            }
             .ac_input {
                 height: 19px;
             }

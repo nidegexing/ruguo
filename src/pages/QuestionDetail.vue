@@ -5,17 +5,20 @@
                 <a class="question-hyperlink" href="/questions/59">用C或c++，如何对字节中的bit进行置位，清除等操作</a></h1>
         </div>
         <div class="docker-main">
-            detail
+            <question-desc/>
         </div>
-        <div class="docker-statistics">
-            bar
-        </div>
+        <div class="docker-statistics">bar</div>
     </div>
 </template>
 
 <script>
+    import QuestionDesc from '../components/questionDetail/QuestionDesc'
+
     export default {
-        name: "QuestionDetail"
+        name: "QuestionDetail",
+        components: {
+            QuestionDesc
+        }
     }
 </script>
 
@@ -53,12 +56,14 @@
 
         .docker-main {
             display: inline-block;
+            vertical-align: top;
             width: @main-main-width;
-            height: 100px;
+            min-height: 320px;
             background: lightblue;
         }
         .docker-statistics {
             display: inline-block;
+            vertical-align: top;
             width: @main-statistics-width;
             height: 100px;
             margin-left: 1px;

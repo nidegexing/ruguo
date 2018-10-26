@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="docker-foot">
         I m footer
     </div>
 </template>
@@ -10,6 +10,8 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="less" scoped>
+    .docker-foot {
+        text-align: center;
+    }
 </style>
