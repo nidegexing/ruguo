@@ -81,13 +81,20 @@
                                         </a>
                                     </div>
                                     <div class="user-details">
-                                        <a title="Yan.W" href="/users/5">Yan.W</a> <br>
-                                        <span title="威望" class="reputation-score">186</span>
-                                        <span title="0 金徽章 "><span class="badge1"></span><span
-                                            class="badgecount">0</span></span><span title="0 银徽章 "><span
-                                        class="badge2"></span><span class="badgecount">0</span></span><span
-                                        title="5 铜徽章 "><span class="badge3"></span><span
-                                        class="badgecount">5</span></span>
+                                        <a title="user1854" href="/users/1854">user1854</a> <br>
+                                        <span title="威望" class="reputation-score">441</span>
+                                        <span title="0 金徽章 ">
+                                            <span class="badge gold"/>
+                                            <span class="badgecount">0</span>
+                                        </span>
+                                        <span title="0 银徽章 ">
+                                            <span class="badge silver"/>
+                                            <span class="badgecount">0</span>
+                                        </span>
+                                        <span title="2 铜徽章 ">
+                                            <span class="badge copper"/>
+                                            <span class="badgecount">0</span>
+                                        </span>
                                     </div>
                                     <div class="user-details">
                                         <a title="查看历史版本" href="/post/revisions?id=59">4个版本</a>
@@ -101,7 +108,7 @@
             <tr>
                 <td class="votecell"></td>
                 <td>
-                    <div class="comments" id="comments-59">
+                    <div class="comments">
                         <table>
                             <tbody>
                             </tbody>
@@ -109,7 +116,7 @@
                             <tr>
                                 <td></td>
                                 <td class="comment-form">
-                                    <form id="add-comment-59"></form>
+                                    <form></form>
                                 </td>
                             </tr>
                             </tfoot>
@@ -145,36 +152,5 @@
 </script>
 
 <style lang="less" scoped>
-    .question {
-        width: 730px;
 
-        .postcell {
-            .post-taglist {
-                clear: both;
-                margin-bottom: 10px;
-            }
-            .fw {
-                display: flex;
-                justify-content: flex-end;
-                width: 100%;
-
-                .post-signature {
-                    height: 58px;
-                    padding-left: 5px;
-                    padding-top: 2px;
-                    text-align: left;
-                    vertical-align: top;
-                    width: 175px;
-                }
-                .post-signature {
-                    height: 58px;
-                    padding-left: 5px;
-                    padding-top: 2px;
-                    text-align: left;
-                    vertical-align: top;
-                    width: 175px;
-                }
-            }
-        }
-    }
 </style>

@@ -163,65 +163,6 @@
                 color: #999999;
                 line-height: 18px;
                 width: 185px;
-                .user-info {
-                    height: 35px;
-                    width: 185px;
-                    .user-action-time {
-                        margin-bottom: 4px;
-                        margin-top: 2px;
-                        .relativetime {
-                            font-weight: bold;
-                            text-decoration: none;
-                        }
-                    }
-                    .user-gravatar32 {
-                        float: left;
-                        height: 32px;
-                        width: 32px;
-                        img {
-                            width: 100%;
-                            height: 100%;
-                            vertical-align: baseline;
-                        }
-                    }
-                    .user-details {
-                        float: left;
-                        margin-left: 5px;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        width: 145px;
-                        .reputation-score {
-                            margin-left: 1px;
-                            font-size: 110%;
-                            margin-right: 0;
-                            color: #444444;
-                            font-weight: bold;
-                        }
-                        .badge {
-                            display: inline-block;
-                            height: 11px;
-                            line-height: inherit;
-                            margin: 0 1px 1px 3px;
-                            overflow: hidden;
-                            vertical-align: text-bottom;
-                            width: 6px;
-
-                            &.gold {
-                                background: url(/static/img/sprites.png) no-repeat -40px -1034px;
-                            }
-                            &.silver {
-                                background: url(/static/img/sprites.png) no-repeat -20px -1034px;
-                            }
-                            &.copper {
-                                background: url(/static/img/sprites.png) no-repeat 0 -1034px;
-                            }
-                        }
-                        .badgecount {
-                            padding-left: 1px;
-                            color: #808185;
-                        }
-                    }
-                }
             }
         }
         &:after {

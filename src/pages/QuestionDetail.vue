@@ -2,22 +2,30 @@
     <div class="docker-root">
         <div class="question-header">
             <h1 class="title">
-                <a class="question-hyperlink" href="/questions/59">用C或c++，如何对字节中的bit进行置位，清除等操作</a></h1>
+                <a class="question-hyperlink" href="/questions/59">用C或c++，如何对字节中的bit进行置位，清除等操作</a>
+            </h1>
         </div>
         <div class="docker-main">
             <question-desc/>
+            <answers-area/>
         </div>
-        <div class="docker-statistics">bar</div>
+        <div class="docker-statistics">
+            <detail-sider-bar/>
+        </div>
     </div>
 </template>
 
 <script>
     import QuestionDesc from '../components/questionDetail/QuestionDesc'
+    import AnswersArea from '../components/questionDetail/AnswersArea'
+    import DetailSiderBar from '../components/questionDetail/DetailSiderBar'
 
     export default {
         name: "QuestionDetail",
         components: {
-            QuestionDesc
+            QuestionDesc,
+            AnswersArea,
+            DetailSiderBar
         }
     }
 </script>
@@ -59,15 +67,11 @@
             vertical-align: top;
             width: @main-main-width;
             min-height: 320px;
-            background: lightblue;
         }
         .docker-statistics {
             display: inline-block;
-            vertical-align: top;
             width: @main-statistics-width;
-            height: 100px;
             margin-left: 1px;
-            background: lightyellow;
         }
     }
 </style>

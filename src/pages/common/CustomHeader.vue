@@ -10,8 +10,8 @@
                             <a href="/users/login">登录</a>
                             <span class="lsep">|</span>
                         </span>
-                        <span id="hlinks-nav"/>
-                        <span id="hlinks-custom">
+                        <span/>
+                        <span>
                             <a href="/faq">FAQ</a>
                         </span>
                     </div>
@@ -48,7 +48,7 @@
                     </ul>
 
                     <ul class="nav mainnavs askquestion">
-                        <li><a id="nav-askquestion" href="/questions/ask">提问</a></li>
+                        <li><a href="/questions/ask">提问</a></li>
                     </ul>
                 </div>
             </div>

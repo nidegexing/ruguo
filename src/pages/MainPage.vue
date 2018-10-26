@@ -3,6 +3,9 @@
         <div class="docker-main">
             <main-tabs/>
             <question-item/>
+            <question-item/>
+            <question-item/>
+            <question-item/>
         </div>
         <div class="docker-statistics">
             <sider-bar/>
