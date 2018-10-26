@@ -17,7 +17,12 @@
         </div>
         <div class="summary">
             <h3 class="h3">
-                <a class="question-hyperlink" href="/questions/18721">C语言题求解</a></h3>
+                <router-link
+                    class="question-hyperlink"
+                    :to="{ name: 'question', params: { id: this.id }}"
+                >C语言题求解
+                </router-link>
+            </h3>
             <div class="excerpt">
                 #intclude&lt;string.h&gt;
                 #include&lt;stdio.h&gt;
@@ -69,7 +74,12 @@
 
 <script>
     export default {
-        name: "QuestionItem"
+        name: "QuestionItem",
+        data() {
+            return {
+                id: 59
+            }
+        }
     }
 </script>
 
