@@ -29,8 +29,8 @@
 </script>
 
 <style lang="less" scoped>
-    @main-root-width: 960px;
-    @main-main-width: 735px;
+    @main-root-width: 1222px;
+    @main-main-width: 997px;
     @main-statistics-width: 220px;
 
     .docker-root {

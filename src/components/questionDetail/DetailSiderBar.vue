@@ -1,7 +1,7 @@
 <template>
     <div class="sidebar">
         <div class="module">
-            <p class="label-key">标签</p>
+            <p>标签</p>
             <div class="tagged">
                 <a class="post-tag" href="/questions/tagged/bit">bit</a>&nbsp;
                 <span class="item-multiplier">×&nbsp;2</span><br>

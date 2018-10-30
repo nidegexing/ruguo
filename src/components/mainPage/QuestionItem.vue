@@ -1,7 +1,10 @@
 <template>
     <div class="question-summary">
+        <div class="docker-cover">
+            <img src="/static/img/cover.webp" class="img"/>
+        </div>
         <div class="statscontainer">
-            <div class="statsarrow"></div>
+            <div class="statsarrow"/>
             <div class="stats">
                 <div class="vote">
                     <div class="votes">
@@ -88,8 +91,17 @@
         border-bottom: 1px dotted #999999;
         overflow: hidden;
         padding: 11px 0;
-        width: 730px;
+        width: 992px;
         display: flex;
+
+        .docker-cover {
+            width: 262px;
+            height: 131px;
+            .img {
+                width: 100%;
+                height: 100%;
+            }
+        }
 
         .statscontainer {
             width: 86px;
