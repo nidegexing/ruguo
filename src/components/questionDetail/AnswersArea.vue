@@ -13,17 +13,19 @@
         <answer-item/>
         <answer-item/>
         <answer-item/>
-        <answer-item/>
+        <answer-item-with-comment/>
     </div>
 </template>
 
 <script>
     import AnswerItem from './AnswerItem'
+    import AnswerItemWithComment from './AnswerItemWithComment'
 
     export default {
         name: "AnswersArea",
         components: {
-            AnswerItem
+            AnswerItem,
+            AnswerItemWithComment
         }
     }
 </script>

@@ -201,6 +201,10 @@
         max-height: 600px;
     }
 
+    ul, ol, li {
+        list-style: none;
+    }
+
     .post-text {
         font-size: 107%;
         line-height: 130%;
@@ -498,5 +502,11 @@
     .related {
         font-size: 90%;
         line-height: 120%;
+    }
+
+    .clearfix:after {
+        content: " ";
+        display: table;
+        clear: both;
     }
 </style>
