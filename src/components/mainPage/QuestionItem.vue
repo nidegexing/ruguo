@@ -91,11 +91,11 @@
         border-bottom: 1px dotted #999999;
         overflow: hidden;
         padding: 11px 0;
-        width: 992px;
+        width: 916px;
         display: flex;
 
         .docker-cover {
-            width: 262px;
+            width: 186px;
             height: 131px;
             .img {
                 width: 100%;

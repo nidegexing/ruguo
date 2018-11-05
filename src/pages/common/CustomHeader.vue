@@ -63,7 +63,7 @@
 </script>
 
 <style lang="less" scoped>
-    @main-body-width: 960px;
+    @main-body-width: 1146px;
 
     .custom-header {
         background-color: #EEEEEE;
@@ -131,7 +131,7 @@
                 width: 250px;
 
                 .logo {
-                    background: url(/static/img/sprites.png) 0 0 no-repeat;
+                    background: url(/static/img/logo.jpg) 0 0 no-repeat;
                     overflow: hidden;
                     display: block;
                     height: 61px;
@@ -142,7 +142,7 @@
                 position: relative;
                 padding: 34px 0px 20px 5px;
                 width: 705px;
-
+                margin-left: 188px;
                 .mainnavs {
                     position: absolute;
                     left: 10px;
