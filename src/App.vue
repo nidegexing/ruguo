@@ -15,11 +15,16 @@
         components: {
             CustomHeader,
             CustomFooter
+        },
+        mounted() {
+            console.log("document.body.clientWidth:", document.body.clientWidth);
         }
     }
 </script>
 
 <style lang="less">
+    @color-yahoo: #324fe1;
+
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -47,7 +52,7 @@
     }
 
     a {
-        color: #0077CC;
+        color: @color-yahoo;
         cursor: pointer;
         text-decoration: none;
     }
@@ -118,7 +123,7 @@
             .vote-count-post {
                 display: block;
                 font-size: 240%;
-                color: #808185;
+                color: @color-yahoo;
                 display: block;
                 font-weight: bold;
                 font-size: 200%;
@@ -131,7 +136,7 @@
             }
 
             .favoritecount {
-                color: #808185;
+                color: @color-yahoo;
                 text-align: center;
             }
         }
@@ -283,6 +288,7 @@
         height: 35px;
         width: 185px;
         .user-action-time {
+            opacity: 0;
             margin-bottom: 4px;
             margin-top: 2px;
             .relativetime {
@@ -334,7 +340,7 @@
             }
             .badgecount {
                 padding-left: 1px;
-                color: #808185;
+                color: @color-yahoo;
             }
         }
     }
@@ -418,16 +424,16 @@
     }
 
     .sidebar {
-        margin-bottom: 60px;
         overflow: hidden;
-        width: 220px;
+        /*margin-bottom: 60px;*/
+        /*width: 220px;*/
         text-align: left;
         .module {
             color: #444;
             padding: 0 8px 2px 8px;
             margin-bottom: 10px;
             .summarycount {
-                color: #808185;
+                color: @color-yahoo;
                 font-size: 350%;
                 font-weight: bold;
                 text-align: left;
@@ -508,5 +514,33 @@
         content: " ";
         display: table;
         clear: both;
+    }
+
+    .docker-mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    /*PC端样式*/
+    @media screen and ( min-width: 1600px ) {
+        html {
+            /*font-size: 32px;*/
+        }
+    }
+
+    /*移动端样式*/
+    @media screen and ( max-width: 1600px ) {
+        html {
+            /*font-size: 16px;*/
+        }
     }
 </style>

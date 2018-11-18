@@ -25,6 +25,7 @@
                     :to="{ name: 'question', params: { id: this.id }}"
                 >C语言题求解
                 </router-link>
+                <span class="title-time">2018/11/16</span>
             </h3>
             <div class="excerpt">
                 #intclude&lt;string.h&gt;
@@ -87,11 +88,12 @@
 </script>
 
 <style lang="less" scoped>
+    @color-dongwu: #669933;
     .question-summary {
         border-bottom: 1px dotted #999999;
         overflow: hidden;
         padding: 11px 0;
-        width: 916px;
+        width: 100%;
         display: flex;
 
         .docker-cover {
@@ -151,11 +153,26 @@
             width: 635px;
             text-align: left;
             .h3 {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+
                 font-size: 130%;
                 font-weight: bold;
                 margin-bottom: 5px;
                 .question-hyperlink {
+                    color: @color-dongwu;
                     font-weight: bold;
+                }
+                .title-time {
+                    margin-right: 2rem;
+                    display: inline-block;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                    line-height: 1.6rem;
+                    height: 1.6rem;
+                    border: 1px @color-dongwu solid;
                 }
             }
             .excerpt {

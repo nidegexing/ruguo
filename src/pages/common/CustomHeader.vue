@@ -64,6 +64,7 @@
 
 <style lang="less" scoped>
     @main-body-width: 1146px;
+    @color-yahoo: #324fe1;
 
     .custom-header {
         background-color: #EEEEEE;
@@ -149,7 +150,7 @@
                     display: inline-block;
                     font-size: 125%;
                     background: #FAFAFA;
-                    border: 1px solid #CCCCCC;
+                    border: 1px solid @color-yahoo;
                     list-style: disc;
                     margin-left: 30px;
                     margin-bottom: 1em;
@@ -158,11 +159,11 @@
                         display: inline-block;
                         float: left;
                         padding: 2px 5px;
-                        border-left: 1px solid #D6D6D6;
-                        border-right: 1px solid #D6D6D6;
+                        border-left: 1px solid @color-yahoo;
+                        border-right: 1px solid @color-yahoo;
 
                         a {
-                            color: #666;
+                            color: @color-yahoo;
                             display: block;
                             font-weight: bold;
                             padding: 6px 12px;

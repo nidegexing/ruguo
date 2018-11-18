@@ -2,7 +2,11 @@
     <div class="sidebar">
         <div class="module">
             <div class="summarycount al">5341</div>
-            <p>问题</p>
+            <p>话题</p>
+        </div>
+        <div class="module">
+            <div class="summarycount al">165341</div>
+            <p>回复数</p>
         </div>
         <div class="module">
             <h4>收藏标签</h4>
